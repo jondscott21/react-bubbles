@@ -58,7 +58,7 @@ const Bubbles = ({ colors }) => {
       </Svg>
       <Svg width={400} height={400}>
         <Pie
-          data={pieData}
+          data={bubbleData}
           value={datum => datum.value}
           id={datum => datum.id}
           sort={(a, b) => a.id - b.id}

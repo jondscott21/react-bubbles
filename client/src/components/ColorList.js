@@ -103,7 +103,7 @@ const ColorList = ({ colors, updateColors }) => {
           </div>
         </form>
       )}
-      <div style={{position: 'absolute', bottom: '15px'}}>
+      <div style={{marginTop: 'absolute', bottom: '15px'}}>
         <h3>Add more colors</h3>
         <form onSubmit={addColor}>
         <label>

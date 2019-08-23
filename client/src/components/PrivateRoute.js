@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router';
+import { Route, Redirect } from 'react-router';
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
   return (
